@@ -8,7 +8,6 @@
 //=============================================================================================
 //some formulas demand SI units so watch out!
 #pragma once        //safety first
-#include <iostream> //can remove if wanted
 #include <cmath>
 
 namespace Astro {
@@ -316,4 +315,5 @@ namespace Astro {
 
     // Mercury and Venus have 0 moons!.
     //AsroLib ends here!
+
 }   //see you in V2.0
