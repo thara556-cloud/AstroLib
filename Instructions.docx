@@ -1,0 +1,57 @@
+🚀 AstroLib.hpp — How to Use
+________________________________________
+1️⃣ Step 1: Copy the File
+•	Download AstroLib.hpp and put it in the same folder as your program.
+Example folder:
+MyProgram/
+│
+├─ main.cpp      ← your program
+└─ AstroLib.hpp  ← this library file
+________________________________________
+2️⃣ Step 2: Include the Library
+At the top of your main.cpp, write:
+#include "AstroLib.hpp"  // This lets your program use AstroLib
+________________________________________
+3️⃣ Step 3: Use the Functions
+Example program:
+#include "AstroLib.hpp"
+
+int main() {
+    AstroLib::ConvertLightYearToMeters(20);  // Example 
+    return 0;
+}
+________________________________________
+4️⃣ Step 4: Compile the Program
+Open VS Code terminal (or command prompt) and type:
+g++ main.cpp -o MyProgram
+•	This creates an executable called MyProgram.
+•	Then run it:
+./MyProgram       # On Windows: MyProgram.exe
+________________________________________
+✅ That’s it!
+•	No extra linking needed.
+•	No complicated setup.
+•	Just copy, include, use, compile, run.
+________________________________________
+Optional: Keep Libraries in a Separate Folder
+If you want to organize your project:
+MyProgram/
+│
+├─ src/
+│   └─ main.cpp
+└─ include/
+    └─ AstroLib.hpp
+Then in main.cpp:
+#include "../include/AstroLib.hpp"
+Compile with:
+g++ src/main.cpp -I include -o MyProgram
+________________________________________
+💡 Tip for Beginners
+•	#include "AstroLib.hpp" is like telling your program: here’s my toolbox, you can use all the tools inside.
+•	Everything else is just normal C++ code.
+________________________________________
+✅ That’s it!
+Thanks for trying AstroLib
+
+
+
